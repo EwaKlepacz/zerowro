@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30b838bb-9d23-463d-bb7c-411c223c7231" name="Default Changelist" comment="" />
+    <list default="true" id="30b838bb-9d23-463d-bb7c-411c223c7231" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Wyszukiwarka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/repositories/DrogerieRepositories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,15 +60,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -87,20 +86,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="323">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/MainPageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/MainPageController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Wyszukiwarka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/repositories/DrogerieRepositories.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -118,31 +147,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/ZwłasnymKubkiem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/manage.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/remove.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -157,10 +165,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/config/AppInit.java" />
@@ -209,8 +219,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/ZwłasnymKubkiemWebController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/manage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/MainPageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/MainPageController.java" />
       </list>
     </option>
   </component>
@@ -244,6 +255,7 @@
     <option name="width" value="1440" />
     <option name="height" value="867" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -353,6 +365,18 @@
               <item name="zero-wro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerowro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-wro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -406,6 +430,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -512,12 +537,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568569289952</updated>
-      <workItem from="1568569292963" duration="41515000" />
+      <workItem from="1568569292963" duration="45260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41515000" />
+    <option name="totallyTimeSpent" value="45260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="8" width="1440" height="867" extended-state="2" />
@@ -543,7 +568,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -615,40 +640,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1841#1842#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/config/AppInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1048,17 +1039,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/MainPageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="323">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Wyszukiwarka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/repositories/DrogerieRepositories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/MainPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

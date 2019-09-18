@@ -18,7 +18,7 @@ Wypełnij poniższy formularz by odnaleźć to czego poszukujesz.
 <br>
 
 <form:form method="post" modelAttribute="wyszukiwarka">
-    <p>Wybierz typ wyszukiwanego miejsca: <form:checkbox path="typePlace" items="${typ}" /></p>
+    <p>Wybierz typ wyszukiwanego miejsca: <form:checkbox path="type" items="${typ}" /></p>
     <p>Wybierz dzielnicę  <form:select path="dzielnica" items="${dzielnice}" multiple="false"/></p>
     <p>  <input type="submit" value="szukaj"/> </p>
 </form:form>
