@@ -7,15 +7,13 @@
 <body>
 <h1>Witaj projekcie zero-wro. Wspólna baza miejśc przyjaznych zero-waste we Wrocławiu.</h1>
 <br>
+
+<br>
 Podziel się swoją wiedzą o miejscach:
 <ol>
     <li>
          <c:url value="/akcesoriaChemia" var="AkcesoriaChemiaURL"/>
             <a href="${AkcesoriaChemiaURL}"> Akcesoria i chemia  </a></li>
-
-
-
-
 
 
     <li> <c:url value="/drogerie" var="DrogerieURL"/>

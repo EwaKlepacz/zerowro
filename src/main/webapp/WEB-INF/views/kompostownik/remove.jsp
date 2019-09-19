@@ -6,12 +6,14 @@
 <head>
     <title>Usunięcie kompostownika</title>
 </head>
-<body>
+<>
 <h1>Usunięcie kompostownika "${kompostownikiToRemove.nazwa}" ${kompostownikiToRemove.dzielnica}</h1>
 <form:form method="post" modelAttribute="kompostownikiToRemove">
     <form:hidden path="id"/>
     Czy chcesz usunąć ten kompostownik? <input type="submit" value="Tak"/>
 </form:form>
 <a href='<c:url value="/kompostowniki"/>'>Wróć</a>
+<br>
+<a href="/index"> Wróć na stronę główną </a>
 </body>
 </html>

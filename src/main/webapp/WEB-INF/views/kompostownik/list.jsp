@@ -29,7 +29,7 @@
             <td>${kompostowniki.kontakt}</td>
 
             <td>
-                <c:url value="/kompostowniki/edit/${kompostowniki.id}" var="editKompostownikiURL">
+                <c:url value="/kompostowniki/edit" var="editKompostownikiURL">
                     <c:param name="id" value="${kompostowniki.id}"/>
                 </c:url>
                 <a href="${editKompostownikiURL}">Edytuj kompostownik </a>
@@ -41,5 +41,7 @@
         </tr>
     </c:forEach>
 </table>
+
+<a href="/index"> Wróć na stronę główną </a>
 </body>
 </html>

@@ -29,7 +29,7 @@
             <td>${drogeria.description}</td>
             <td>${drogeria.marki}</td>
             <td>
-                <c:url value="/drogerie/edit/${drogeria.id}" var="editDrogeriaURL">
+                <c:url value="/drogerie/edit" var="editDrogeriaURL">
                     <c:param name="id" value="${drogeria.id}"/>
                 </c:url>
                 <a href="${editDrogeriaURL}">Edytuj drogerię </a>
@@ -40,7 +40,10 @@
             </td>
         </tr>
     </c:forEach>
-</table>
+
+    </table>
+
+<a href="/index"> Wróć na stronę główną </a>
 </body>
 </html>
 

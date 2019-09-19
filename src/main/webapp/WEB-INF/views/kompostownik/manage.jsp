@@ -21,5 +21,7 @@
     <form:hidden path="id"/>
     <input type="submit" value="Zapisz"/>
 </form:form>
+
+<a href="/index"> Wróć na stronę główną </a>
 </body>
 </html>

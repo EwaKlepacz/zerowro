@@ -25,7 +25,7 @@ public class Akcesoria {
     private String dzielnica;
 
     @NotBlank(message = "Ulica i numer lokalu")
-    @Size(min = 5, max = 30)
+    @Size(min = 5, max = 40)
     @Column(name = "adres")
     private String adress;
 

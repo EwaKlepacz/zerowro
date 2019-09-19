@@ -2943,7 +2943,7 @@ User</ColNames>
     </column>
     <column id="536" parent="241" name="adres">
       <Position>2</Position>
-      <DataType>varchar(30)|0s</DataType>
+      <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>

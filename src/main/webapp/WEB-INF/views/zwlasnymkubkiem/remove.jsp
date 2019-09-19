@@ -13,5 +13,7 @@
     Czy chcesz usunąć to miejsce wspierające akcję "z własnym kubkiem"? <input type="submit" value="Tak"/>
 </form:form>
 <a href='<c:url value="/zwlasnymkubkiem"/>'>Wróć</a>
+<br>
+<a href="/index"> Wróć na stronę główną </a>
 </body>
 </html>

@@ -28,7 +28,7 @@
 
 
             <td>
-                <c:url value="/zwlasnymkubkiem/edit/${zwlasnymkubkiem.id}" var="editzwlasnymkubkiemURL">
+                <c:url value="/zwlasnymkubkiem/edit" var="editzwlasnymkubkiemURL">
                     <c:param name="id" value="${zwlasnymkubkiem.id}"/>
                 </c:url>
                 <a href="${editzwlasnymkubkiemURL}">Edytuj miejsce </a>
@@ -40,5 +40,7 @@
         </tr>
     </c:forEach>
 </table>
+
+<a href="/index"> Wróć na stronę główną </a>
 </body>
 </html>

@@ -13,5 +13,7 @@
     Czy chcesz usunąć to miejsca z produktami spożywczymi przyjazne Zero Waste? <input type="submit" value="Tak"/>
 </form:form>
 <a href='<c:url value="/spozywka"/>'>Wróć</a>
+<br>
+<a href="/index"> Wróć na stronę główną </a>
 </body>
 </html>

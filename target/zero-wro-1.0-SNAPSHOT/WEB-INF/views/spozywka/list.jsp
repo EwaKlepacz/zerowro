@@ -29,7 +29,7 @@
             <td>${spozywka.typ}</td>
 
             <td>
-                <c:url value="/spozywka/edit/${spozywka.id}" var="editSpozywkaURL">
+                <c:url value="/spozywka/edit" var="editSpozywkaURL">
                     <c:param name="id" value="${spozywka.id}"/>
                 </c:url>
                 <a href="${editSpozywkaURL}">Edytuj miejsce  </a>
@@ -41,5 +41,7 @@
         </tr>
     </c:forEach>
 </table>
+
+<a href="/index"> Wróć na stronę główną </a>
 </body>
 </html>
