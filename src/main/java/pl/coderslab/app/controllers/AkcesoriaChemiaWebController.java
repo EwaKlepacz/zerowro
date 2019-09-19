@@ -52,8 +52,8 @@ public class AkcesoriaChemiaWebController {
         return "redirect:/akcesoriaChemia";
     }
 
-    @GetMapping("/remove")
-    public String prepareRemoveAkcesoriaPage(Long id, Model model) {
+    @GetMapping("/remove/{id}")
+    public String prepareRemoveAkcesoriaPage(@PathVariable Long id, Model model) {
         Akcesoria akcesoria = akcesoriaDao.findById(id);
         if (akcesoria == null) {
             return "redirect:/akcesoriaChemia";
@@ -62,11 +62,11 @@ public class AkcesoriaChemiaWebController {
         return "akcesoriaChemia/remove";
     }
 
-    @PostMapping("/remove")
-    public String processRemoveAkcesoriaPage(@Valid Akcesoria akcesoria) {
-        if (akcesoria.getId() != null) {
-            akcesoria= akcesoriaDao.findById(akcesoria.getId());
-            akcesoriaDao.remove(akcesoria);
+    @PostMapping("/remove/*")
+    public String processRemoveAkcesoriaPage(Long id) {
+        Akcesoria akcesoria = akcesoriaDao.findById(id);
+        if (akcesoria != null) {
+               akcesoriaDao.remove(akcesoria);
         }
         return "redirect:/akcesoriaChemia";
     }
@@ -76,3 +76,12 @@ public class AkcesoriaChemiaWebController {
         return Arrays.asList("Psie Pole", "Fabryczna", "Krzyki", "Stare Miasto", "Śródmieście");
     }
 }
+
+//    @PostMapping("/remove/*")
+//    public String processRemoveBookPage(Long id) {
+//        Book book = bookDao.findById(id);
+//        if (book != null) {
+//            bookDao.remove(book);
+//        }
+//        return "redirect:/books";
+//    }

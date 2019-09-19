@@ -55,8 +55,8 @@ public class ZwłasnymKubkiemWebController {
             return "redirect:/zwlasnymkubkiem";
         }
 
-            @GetMapping("/remove")
-        public String prepareRemoveZwalsnymKubkiemPage(Long id, Model model) {
+            @GetMapping("/remove/{id}")
+        public String prepareRemoveZwalsnymKubkiemPage(@PathVariable Long id, Model model) {
             ZwłasnymKubkiem zwłasnymKubkiem = zwłasnymKubkiemDao.findById(id);
             if (zwłasnymKubkiem == null) {
                 return "redirect:/spozywka";
@@ -64,14 +64,16 @@ public class ZwłasnymKubkiemWebController {
             model.addAttribute("zwlansnymkubkiemToRemove", zwłasnymKubkiem);
             return "zwlasnymkubkiem/remove";
         }
- @PostMapping("/remove")
-        public String processRemoveZwlasnymKubkiemPage(@Valid ZwłasnymKubkiem zwłasnymKubkiem) {
-            if (zwłasnymKubkiem.getId() != null) {
-                zwłasnymKubkiem = zwłasnymKubkiemDao.findById(zwłasnymKubkiem.getId());
+ @PostMapping("/remove/*")
+        public String processRemoveZwlasnymKubkiemPage(Long id) {
+        ZwłasnymKubkiem zwłasnymKubkiem = zwłasnymKubkiemDao.findById(id);
+            if (zwłasnymKubkiem != null) {
                 zwłasnymKubkiemDao.remove(zwłasnymKubkiem);
             }
             return "redirect:/zwlasnymkubkiem";
         }
+
+
     @ModelAttribute("dzielnice")
     public List<String> dzielnice() {
         return Arrays.asList("Psie Pole", "Fabryczna", "Krzyki", "Stare Miasto", "Śródmieście");

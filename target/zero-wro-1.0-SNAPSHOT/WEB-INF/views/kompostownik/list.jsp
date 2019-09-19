@@ -29,11 +29,11 @@
             <td>${kompostowniki.kontakt}</td>
 
             <td>
-                <c:url value="/kompostowniki/edit" var="editKompostownikiURL">
+                <c:url value="/kompostowniki/edit/${kompostowniki.id}" var="editKompostownikiURL">
                     <c:param name="id" value="${kompostowniki.id}"/>
                 </c:url>
                 <a href="${editKompostownikiURL}">Edytuj kompostownik </a>
-                <c:url value="/kompostowniki/remove" var="removeKompostownikiURL">
+                <c:url value="/kompostowniki/remove/${kompostowniki.id}" var="removeKompostownikiURL">
                     <c:param name="id" value="${kompostowniki.id}"/>
                 </c:url>
                 <a href="${removeKompostownikiURL}">Usuń kompostownik</a>

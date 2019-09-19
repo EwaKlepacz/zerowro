@@ -29,14 +29,14 @@
             <td>${spozywka.typ}</td>
 
             <td>
-                <c:url value="/spozywka/edit" var="editSpozywkaURL">
+                <c:url value="/spozywka/edit/${spozywka.id}" var="editSpozywkaURL">
                     <c:param name="id" value="${spozywka.id}"/>
                 </c:url>
-                <a href="${editSpozywkaURL}">Edytuj miejsce z produktami spożywczymi przyjazne Zero Waste </a>
-                <c:url value="/spozywka/remove" var="removeSpozywkaURL">
+                <a href="${editSpozywkaURL}">Edytuj miejsce  </a>
+                <c:url value="/spozywka/remove/${spozywka.id}" var="removeSpozywkaURL">
                     <c:param name="id" value="${spozywka.id}"/>
                 </c:url>
-                <a href="${removeSpozywkaURL}">Usuń miejsce z produktami spożywczymi przyjazne Zero Waste</a>
+                <a href="${removeSpozywkaURL}">Usuń miejsce </a>
             </td>
         </tr>
     </c:forEach>

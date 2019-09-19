@@ -35,9 +35,9 @@ public class AkcesoriaDao {
         return em.createQuery("SELECT a FROM Akcesoria a", Akcesoria.class).getResultList();
     }
 
-    public List<Akcesoria> findByDzielnica {
-
-    }
+//    public List<Akcesoria> findByDzielnica  {
+//
+//    }
 
 
 }

@@ -28,12 +28,12 @@
 
 
             <td>
-                <c:url value="/zwlasnymkubkiem/edit" var="editzwlasnymkubkiemURL">
-                    <c:param name="id" value="${zwlasnymKubkiem.id}"/>
+                <c:url value="/zwlasnymkubkiem/edit/${zwlasnymkubkiem.id}" var="editzwlasnymkubkiemURL">
+                    <c:param name="id" value="${zwlasnymkubkiem.id}"/>
                 </c:url>
                 <a href="${editzwlasnymkubkiemURL}">Edytuj miejsce </a>
-                <c:url value="/zwlasnymkubkiem/remove" var="removezwlasnymkubkiemURL">
-                    <c:param name="id" value="${zwlasnymKubkiem.id}"/>
+                <c:url value="/zwlasnymkubkiem/remove/${zwlasnymkubkiem.id}" var="removezwlasnymkubkiemURL">
+                    <c:param name="id" value="${zwlasnymkubkiem.id}"/>
                 </c:url>
                 <a href="${removezwlasnymkubkiemURL}">Usuń miejsce </a>
             </td>

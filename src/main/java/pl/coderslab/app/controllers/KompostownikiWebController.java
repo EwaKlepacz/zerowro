@@ -52,8 +52,8 @@ public class KompostownikiWebController {
         return "redirect:/kompostowniki";
     }
 
-    @GetMapping("/remove")
-    public String prepareRemoveKompostownikiPage(Long id, Model model) {
+    @GetMapping("/remove/{id}")
+    public String prepareRemoveKompostownikiPage(@PathVariable Long id, Model model) {
        Kompostowniki kompostowniki = kompostownikiDao.findById(id);
         if (kompostowniki == null) {
             return "redirect:/kompostowniki";
@@ -62,13 +62,15 @@ public class KompostownikiWebController {
         return "kompostownik/remove";
     }
 
-    @PostMapping("/remove")
-    public String processRemoveKompostownikiPage(@Valid Kompostowniki kompostowniki) {
-        if (kompostowniki.getId() != null) {
-            kompostowniki = kompostownikiDao.findById(kompostowniki.getId());
+    @PostMapping("/remove/*")
+    public String processRemoveKompostownikiPage(Long id) {
+        Kompostowniki kompostowniki = kompostownikiDao.findById(id);
+            if (kompostowniki != null) {
             kompostownikiDao.remove(kompostowniki);
         }
         return "redirect:/kompostowniki";
+
+
     }
     @ModelAttribute("dzielnice")
     public List<String> dzielnice() {

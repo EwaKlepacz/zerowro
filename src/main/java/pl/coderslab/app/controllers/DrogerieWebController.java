@@ -53,8 +53,8 @@ public class DrogerieWebController {
         return "redirect:/drogerie";
     }
 
-    @GetMapping("/remove")
-    public String prepareRemoveDrogeriePage(Long id, Model model) {
+    @GetMapping("/remove/{id}")
+    public String prepareRemoveDrogeriePage(@PathVariable Long id, Model model) {
         Drogeria drogeria = drogerieDao.findById(id);
         if (drogeria == null) {
             return "redirect:/drogerie";
@@ -63,14 +63,16 @@ public class DrogerieWebController {
         return "drogeria/remove";
     }
 
-    @PostMapping("/remove")
-    public String processRemoveDrogeriePage(@Valid Drogeria drogeria) {
-        if (drogeria.getId() != null) {
-            drogeria = drogerieDao.findById(drogeria.getId());
-            drogerieDao.remove(drogeria);
+    @PostMapping("/remove/*")
+    public String processRemoveDrogeriePage(Long id) {
+        Drogeria drogeria = drogerieDao.findById(id);
+        if (drogeria != null) {
+           drogerieDao.remove(drogeria);
         }
         return "redirect:/drogerie";
     }
+
+
     @ModelAttribute("dzielnice")
     public List<String> dzielnice() {
         return Arrays.asList("Psie Pole", "Fabryczna", "Krzyki", "Stare Miasto", "Śródmieście");

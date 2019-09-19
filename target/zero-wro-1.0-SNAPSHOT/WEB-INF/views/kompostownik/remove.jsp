@@ -7,7 +7,7 @@
     <title>Usunięcie kompostownika</title>
 </head>
 <body>
-<h1>Usunięcie kompostownika "${kompostownikiToRemove.name}" ${kompostownikiToRemove.dzielnica}</h1>
+<h1>Usunięcie kompostownika "${kompostownikiToRemove.nazwa}" ${kompostownikiToRemove.dzielnica}</h1>
 <form:form method="post" modelAttribute="kompostownikiToRemove">
     <form:hidden path="id"/>
     Czy chcesz usunąć ten kompostownik? <input type="submit" value="Tak"/>

@@ -42,7 +42,7 @@ public class SpozywkaWebController {
         @PostMapping({"/add", "edit"})
         public String processManageKompostownikiPage(@Valid Spozywka spozywka, BindingResult result) {
             if (result.hasErrors()) {
-                return "spożywka/manage";
+                return "spozywka/manage";
             }
             if (spozywka.getId() == null) {
                 spozywkaDao.create(spozywka);
@@ -52,8 +52,8 @@ public class SpozywkaWebController {
             return "redirect:/spozywka";
         }
 
-        @GetMapping("/remove")
-        public String prepareRemoveSpozywkaPage(Long id, Model model) {
+        @GetMapping("/remove/{id}")
+        public String prepareRemoveSpozywkaPage(@PathVariable Long id, Model model) {
             Spozywka spozywka = spozywkaDao.findById(id);
             if (spozywka == null) {
                 return "redirect:/spozywka";
@@ -62,14 +62,16 @@ public class SpozywkaWebController {
             return "spozywka/remove";
         }
 
-        @PostMapping("/remove")
-        public String processRemoveSpozywkaPage(@Valid Spozywka spozywka) {
-            if (spozywka.getId() != null) {
-                spozywka = spozywkaDao.findById(spozywka.getId());
-                spozywkaDao.remove(spozywka);
+        @PostMapping("/remove/*")
+        public String processRemoveSpozywkaPage(Long id) {
+        Spozywka spozywka = spozywkaDao.findById(id);
+            if (spozywka != null) {
+            spozywkaDao.remove(spozywka);
             }
             return "redirect:/spozywka";
         }
+
+
     @ModelAttribute("dzielnice")
     public List<String> dzielnice() {
         return Arrays.asList("Psie Pole", "Fabryczna", "Krzyki", "Stare Miasto", "Śródmieście");

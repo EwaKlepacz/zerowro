@@ -7,7 +7,7 @@
     <title>Usunięcie miejsca  wspierającego akcję "z własnym kubkiem"</title>
 </head>
 <body>
-<h1>Usunięcie miejsca wspierającego akcję "z własnym kubkiem" "${zwlansnymkubkiemToRemove.name}" ${zwlansnymkubkiemToRemove.dzielnica}</h1>
+<h1>Usunięcie miejsca wspierającego akcję "z własnym kubkiem" "${zwlansnymkubkiemToRemove.nazwa}" ${zwlansnymkubkiemToRemove.dzielnica}</h1>
 <form:form method="post" modelAttribute="zwlansnymkubkiemToRemove">
     <form:hidden path="id"/>
     Czy chcesz usunąć to miejsce wspierające akcję "z własnym kubkiem"? <input type="submit" value="Tak"/>

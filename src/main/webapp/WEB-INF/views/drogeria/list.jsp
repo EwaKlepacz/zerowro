@@ -29,11 +29,11 @@
             <td>${drogeria.description}</td>
             <td>${drogeria.marki}</td>
             <td>
-                <c:url value="/drogerie/add" var="editDrogeriaURL">
+                <c:url value="/drogerie/edit/${drogeria.id}" var="editDrogeriaURL">
                     <c:param name="id" value="${drogeria.id}"/>
                 </c:url>
                 <a href="${editDrogeriaURL}">Edytuj drogerię </a>
-                <c:url value="/drogerie/remove" var="removeDrogeriaURL">
+                <c:url value="/drogerie/remove/${drogeria.id}" var="removeDrogeriaURL">
                     <c:param name="id" value="${drogeria.id}"/>
                 </c:url>
                 <a href="${removeDrogeriaURL}">Usuń drogerię</a>

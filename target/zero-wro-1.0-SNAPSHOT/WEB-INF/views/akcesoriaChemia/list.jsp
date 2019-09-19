@@ -33,11 +33,11 @@
         <td>${akcesoriaChemia.adress}</td>
         <td>${akcesoriaChemia.description}</td>
         <td>
-            <c:url value="/akcesoriaChemia/edit" var="editAkcesoriaChemiaURL">
+            <c:url value="/akcesoriaChemia/edit/${akcesoriaChemia.id}" var="editAkcesoriaChemiaURL">
                 <c:param name="id" value="${akcesoriaChemia.id}"/>
             </c:url>
             <a href="${editAkcesoriaChemiaURL}">Edytuj sklep</a>
-            <c:url value="/akcesoriaChemia/remove" var="removeAkcesoriaChemiaURL">
+            <c:url value="/akcesoriaChemia/remove/${akcesoriaChemia.id}" var="removeAkcesoriaChemiaURL">
                 <c:param name="id" value="${akcesoriaChemia.id}"/>
             </c:url>
             <a href="${removeAkcesoriaChemiaURL}">Usuń sklep</a>
