@@ -1,5 +1,6 @@
 package pl.coderslab.app.controllers;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -11,14 +12,16 @@ import java.util.Arrays;
 import java.util.List;
 
 @Controller
-@RequestMapping("/mainPage")
+@RequestMapping
 public class MainPageController {
+    @GetMapping("/mainPage")
+    public String formularz(Model model) {
 
-    public String formularz() {
-
-
+        Model model1 = new Model();
+        model1.addAttribute("wyszukiwarka", wyszukiwarka);
+//jeśli w formularzu zaznaczon jest dzielnica
         if (dzielnice() != null && typ() == null) {
-            forEach(dzielnice():dzielnica){
+            forEach(dzielnice(): dzielnica) {
 
                 AkcesoriaRepositories akcesoriaRepositories;
                 akcesoriaRepositories.findAkcesoriaByDzielnice(dzielnice());
@@ -33,7 +36,7 @@ public class MainPageController {
                 return "find/dzielniceList";
             }
         }
-
+//jeśli zaznaczony jest typ
         if (dzielnice() == null && typ() != null) {
             if (typ = "Akcesoria i chemia") {
                 AkcesoriaDao akcesoriaDao = new AkcesoriaDao();
@@ -49,33 +52,33 @@ public class MainPageController {
         } else if (typ = "Spożywka") {
             SpozywkaDao spozywkaDao = new SpozywkaDao();
             spozywkaDao.findAll();
-        }
+
         return "spozywka/list";
 
-    } else if ("typ"  = "Kompostowniki") {
+        } else if( typ ="Kompostowniki") {
         KompostownikiDao kompostownikiDao = new KompostownikiDao();
         kompostownikiDao.findAll();
-    }
-        return"kompostownik/list";
-}
-    else ("typ" ="Z własnym kubkiem"){
-            ZwłasnymKubkiemDao zwłasnymKubkiemDao=ZwłasnymKubkiemDao();
+
+        return "kompostownik/list";
+        }
+    else if (typ ="Z własnym kubkiem"){
+            ZwłasnymKubkiemDao zwłasnymKubkiemDao= new ZwłasnymKubkiemDao();
             zwłasnymKubkiemDao.findAll();
-            }
+
             return"zwlasnymkubkiem/list";
             }
 
 
 // trzeci typ wyszukania jeśli oba są zaznaczone
 
-if ("typ" != null && "dzielnice" != null) {
-forEach(typ :typ)
-            AkcesoriaDao akcesoriaDao = new AkcesoriaDao();
-akcesoriaDao.findAll().findByDzielnice();
+            if("typ"!=null&&"dzielnice"!=null){
+            forEach(typ:typ)
+            AkcesoriaDao akcesoriaDao=new AkcesoriaDao();
+            akcesoriaDao.findAll().findByDzielnice();
 
-}
-
-}
+            }
+            return"dzielnicaTypList";
+            }
 
 
 @ModelAttribute("typ")
