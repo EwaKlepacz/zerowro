@@ -14,86 +14,44 @@ import java.util.List;
 @Controller
 @RequestMapping
 public class MainPageController {
-    @GetMapping("/mainPage")
-    public String formularz(Model model) {
+    @GetMapping("/index")
+    public String prepareMainPage() {
 
-//        Model model1 = new Model();
-//        model1.addAttribute("wyszukiwarka", wyszukiwarka);
-////jeśli w formularzu zaznaczon jest dzielnica
-//        if (dzielnice() != null && typ() == null) {
-//            forEach(dzielnice(): dzielnica) {
-//
-//                AkcesoriaRepositories akcesoriaRepositories;
-//                akcesoriaRepositories.findAkcesoriaByDzielnice(dzielnice());
-//                DrogerieRepositories drogerieRepositories;
-//                drogerieRepositories.findDrogeriaByDzielnica(dzielnice());
-//                KompostownikiRepositories kompostownikiRepositories;
-//                kompostownikiRepositories.findKompostownikiByDzielnica(dzielnice());
-//                SpożywkaRepositories spożywkaRepositories;
-//                spożywkaRepositories.findSpozywkaByDzielnica(dzielnice());
-//                ZwłasnymKubkiemRepositories zwłasnymKubkiemRepositories;
-//                zwłasnymKubkiemRepositories.findZwłasnymKubkiemByDzielnica(dzielnice());
-//                return "find/dzielniceList";
-//            }
-//        }
-////jeśli zaznaczony jest typ
-//        if (dzielnice() == null && typ() != null) {
-//            if (typ = "Akcesoria i chemia") {
-//                AkcesoriaDao akcesoriaDao = new AkcesoriaDao();
-//                akcesoriaDao.findAll();
-//                return "akcesoriaChemia/list";
-//
-//            } else if (typ = "Drogerie") {
-//                DrogerieDao drogerieDao = new DrogerieDao();
-//                drogerieDao.findAll();
-//            }
-//            return "drogeria/list";
-//
-//        } else if (typ = "Spożywka") {
-//            SpozywkaDao spozywkaDao = new SpozywkaDao();
-//            spozywkaDao.findAll();
-//
-//        return "spozywka/list";
-//
-//        } else if( typ ="Kompostowniki") {
-//        KompostownikiDao kompostownikiDao = new KompostownikiDao();
-//        kompostownikiDao.findAll();
-//
-//        return "kompostownik/list";
-//        }
-//    else if (typ ="Z własnym kubkiem"){
-//            ZwłasnymKubkiemDao zwłasnymKubkiemDao= new ZwłasnymKubkiemDao();
-//            zwłasnymKubkiemDao.findAll();
-//
-//            return"zwlasnymkubkiem/list";
-//            }
-//
-//
-//// trzeci typ wyszukania jeśli oba są zaznaczone
-//
-//            if("typ"!=null&&"dzielnice"!=null){
-//            forEach(List <String> typ : typ)
-//            AkcesoriaDao akcesoriaDao=new AkcesoriaDao();
-//            akcesoriaDao.findAll().findByDzielnice(dzielnice());
-//
-//            }
-//            return"dzielnicaTypList";
-//            }
-//
-//
-//@ModelAttribute("typ")
-//public List<String> typ(){
-//
-//        return Arrays.asList("Akcesoria i chemia","Drogerie","Spożywka","Kompostowniki","Z własnym kubkiem");
+// @GetMapping
+//        public String prepareAllSpozywkaPage(Model model) {
+//            model.addAttribute("spozywka", spozywkaDao.findAll());
+//            return "spozywka/list";
 //        }
 //
-//@ModelAttribute("dzielnice")
-//public List<String> dzielnice(){
+//        @GetMapping({"/add", "edit"})
+//        public String prepareManageSpożywkaPage(@RequestParam(required = false) Long id, Model model) {
+//           Spozywka spozywka;
+//            if (id == null) {
+//                spozywka = new Spozywka();
+//            } else {
+//                spozywka = spozywkaDao.findById(id);
+//            }
+//            model.addAttribute("spozywka", spozywka);
+//            return "spozywka/manage";
+//        }
 //
-//        return Arrays.asList("Stare Miasto","Śródmieście","Krzyki","Psie Pole","Fabryczna");
+//        @PostMapping({"/add", "edit"})
+//        public String processManageKompostownikiPage(@Valid Spozywka spozywka, BindingResult result) {
+//            if (result.hasErrors()) {
+//                return "spozywka/manage";
+//            }
+//            if (spozywka.getId() == null) {
+//                spozywkaDao.create(spozywka);
+//            } else {
+//                spozywkaDao.update(spozywka);
+//            }
+//            return "redirect:/spozywka";
 //        }
 
-        return null;
+
+
+        return "index";
     }
 }
+
 
