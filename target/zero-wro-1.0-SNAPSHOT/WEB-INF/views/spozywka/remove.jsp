@@ -6,6 +6,11 @@
 <head>
     <title>Usunięcie miejsca z produktami spożywczymi przyjazne Zero Waste</title>
 </head>
+<style>
+    body {
+        background-color: rgba(236,250,147,0.59);
+    }
+</style>
 <body>
 <h1>Usunięcie kmiejsca z produktami spożywczymi przyjazne Zero Waste "${spozywkaToRemove.name}" ${spozywkaToRemove.dzielnica}</h1>
 <form:form method="post" modelAttribute="spozywkaToRemove">
@@ -13,5 +18,7 @@
     Czy chcesz usunąć to miejsca z produktami spożywczymi przyjazne Zero Waste? <input type="submit" value="Tak"/>
 </form:form>
 <a href='<c:url value="/spozywka"/>'>Wróć</a>
+<br>
+<a href="/index"> Wróć na stronę główną </a>
 </body>
 </html>

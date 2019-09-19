@@ -5,6 +5,11 @@
 <head>
     <title>Lista miejsc spożywczych przyjaznych Zero Waste </title>
 </head>
+<style>
+    body {
+        background-color: rgba(236,250,147,0.59);
+    }
+</style>
 <body>
 <h1>Lista miejsc spożywczych przyjaznych Zero Waste: </h1>
 <c:url value="/spozywka/add" var="addSpozywkaURL"/>

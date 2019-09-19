@@ -6,7 +6,12 @@
 <head>
     <title>Usunięcie kompostownika</title>
 </head>
-<>
+<style>
+    body {
+        background-color: rgba(147,243,178,0.59);
+    }
+</style>
+<body>
 <h1>Usunięcie kompostownika "${kompostownikiToRemove.nazwa}" ${kompostownikiToRemove.dzielnica}</h1>
 <form:form method="post" modelAttribute="kompostownikiToRemove">
     <form:hidden path="id"/>

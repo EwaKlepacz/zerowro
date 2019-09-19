@@ -76,7 +76,7 @@ public class ZwłasnymKubkiemWebController {
 
     @ModelAttribute("dzielnice")
     public List<String> dzielnice() {
-        return Arrays.asList("Psie Pole", "Fabryczna", "Krzyki", "Stare Miasto", "Śródmieście");
+        return Arrays.asList("Psie Pole", "Fabryczna", "Krzyki", "Stare Miasto", "Srodmiescie");
     }
 }
 

@@ -5,6 +5,11 @@
 <head>
     <title>Lista drogerii </title>
 </head>
+<style>
+    body {
+        background-color: rgba(247,211,246,0.59);
+    }
+</style>
 <body>
 <h1>Lista drogerii </h1>
 <c:url value="/drogerie/add" var="addDrogerieURL"/>

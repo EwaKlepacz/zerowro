@@ -11,6 +11,11 @@
 <head>
     <title>Lista sklepów z akcesoriami i chemią </title>
 </head>
+<style>
+    body {
+        background-color: rgb(173,234,204);
+    }
+</style>
 <body>
 <h1>Lista sklepów z akcesoriami i chemią </h1>
 <c:url value="/akcesoriaChemia/add" var="addAkcesoriaChemiaURL"/>

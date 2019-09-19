@@ -4,12 +4,18 @@
 <head>
     <title>Title</title>
 </head>
+<style>
+    body {
+        background-image: url("tlo.jpg");
+    }
+</style>
 <body>
-<h1>Witaj projekcie zero-wro. Wspólna baza miejśc przyjaznych zero-waste we Wrocławiu.</h1>
+<h1 color="green" align="center">Witaj w projekcie Zero-Wro.</h1>
+    <h2 align="center">Wspólna baza miejsc przyjaznych zero-waste we Wrocławiu.</h2>
 <br>
 
 <br>
-Podziel się swoją wiedzą o miejscach:
+<p text>Podziel się swoją wiedzą o miejscach:</p>
 <ol>
     <li>
          <c:url value="/akcesoriaChemia" var="AkcesoriaChemiaURL"/>

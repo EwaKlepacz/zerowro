@@ -6,6 +6,11 @@
 <head>
     <title>Usunięcie sklepu z akcesoriami/chemią</title>
 </head>
+<style>
+    body {
+        background-color: rgb(173,234,204);
+    }
+</style>
 <body>
 <h1>Usunięcie sklepu z akcesoriami/chemią "${akcesoriaToRemove.name}"</h1>
 <form:form method="post" modelAttribute="akcesoriaToRemove">

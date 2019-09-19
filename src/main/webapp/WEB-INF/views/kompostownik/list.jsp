@@ -5,6 +5,11 @@
 <head>
     <title>Lista kompostowników </title>
 </head>
+<style>
+    body {
+        background-color: rgba(147,243,178,0.59);
+    }
+</style>
 <body>
 <h1>Lista kompostowników: </h1>
 <c:url value="/kompostowniki/add" var="addKompostownikURL"/>
