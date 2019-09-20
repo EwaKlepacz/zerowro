@@ -16,14 +16,12 @@
     <form:label path="name"> Nazwa: </form:label>
     <form:input path="name"/>
 
-    <p> Dzielnice: ><form:select path="dzielnica" items="${dzielnice}"/></p>
+    <p> Dzielnice: <form:select path="dzielnica" items="${dzielnice}"/></p>
     <form:label path="adress">Adres: </form:label>
     <form:input path="adress"/>
     <form:label path="description">Opis: </form:label>
     <form:input path="description"/>
-    <form:label path="typ">Typ: </form:label>
-    <form:input path="typ"/>
-
+    <p> Typ: <form:select multiple="true" path="typ" items="${typPunktu}"/></p>
     <form:hidden path="id"/>
     <input type="submit" value="Zapisz"/>
 </form:form>

@@ -7,51 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30b838bb-9d23-463d-bb7c-411c223c7231" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8bf3cfee-bd58-4520-a5fb-b608f1972d55.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8bf3cfee-bd58-4520-a5fb-b608f1972d55.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/AkcesoriaChemiaWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/AkcesoriaChemiaWebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/DrogerieWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/DrogerieWebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/KompostownikiWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/KompostownikiWebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/SpozywkaWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/SpozywkaWebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/ZwłasnymKubkiemWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/ZwłasnymKubkiemWebController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/remove.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/remove.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/remove.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/remove.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/remove.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/AkcesoriaChemiaWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/AkcesoriaChemiaWebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/DrogerieWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/DrogerieWebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/KompostownikiWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/KompostownikiWebController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/SpozywkaWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/SpozywkaWebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/ZwłasnymKubkiemWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/controllers/ZwłasnymKubkiemWebController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/model/entities/Spozywka.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/model/entities/Spozywka.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/AkcesoriaChemiaWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/AkcesoriaChemiaWebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/DrogerieWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/DrogerieWebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/KompostownikiWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/KompostownikiWebController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/SpozywkaWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/SpozywkaWebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/ZwłasnymKubkiemWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/controllers/ZwłasnymKubkiemWebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/akcesoriaChemia/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/akcesoriaChemia/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/akcesoriaChemia/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/akcesoriaChemia/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/akcesoriaChemia/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/akcesoriaChemia/remove.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/drogeria/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/drogeria/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/drogeria/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/drogeria/remove.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/kompostownik/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/kompostownik/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/kompostownik/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/kompostownik/remove.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/model/entities/Spozywka.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/model/entities/Spozywka.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/spozywka/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/spozywka/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/spozywka/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/spozywka/remove.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/zwlasnymkubkiem/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/zwlasnymkubkiem/manage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/zwlasnymkubkiem/remove.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zero-wro-1.0-SNAPSHOT/WEB-INF/views/zwlasnymkubkiem/remove.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,95 +67,100 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/list.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/ZwłasnymKubkiem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="157">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/manage.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Drogeria.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="17">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/remove.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/manage.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/remove.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Akcesoria.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/manage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://8bf3cfee-bd58-4520-a5fb-b608f1972d55/schema/zerowro/table/drogerie">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="62b46eb9-97ef-40ec-8896-6e9ccb05bdd8">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://8bf3cfee-bd58-4520-a5fb-b608f1972d55/schema/zerowro/table/Kompostowniki">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="62b46eb9-97ef-40ec-8896-6e9ccb05bdd8">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8bf3cfee-bd58-4520-a5fb-b608f1972d55/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+            <state relative-caret-position="293">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -218,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Drogeria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Spozywka.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/ZwłasnymKubkiem.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Kompostowniki.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form.jsp" />
@@ -239,25 +212,26 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/AkcesoriaChemiaWebController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/DrogerieWebController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/KompostownikiWebController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/SpozywkaWebController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/ZwłasnymKubkiemWebController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/manage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/remove.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/manage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/remove.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/manage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/remove.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/manage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/remove.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/manage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/remove.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8bf3cfee-bd58-4520-a5fb-b608f1972d55/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/SpozywkaWebController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/manage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Spozywka.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp" />
       </list>
     </option>
   </component>
@@ -620,7 +594,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568569289952</updated>
-      <workItem from="1568569292963" duration="88137000" />
+      <workItem from="1568569292963" duration="91209000" />
     </task>
     <task id="LOCAL-00001" summary="Praca nad wyszukiwarką po dzielnicach i typach obiektów">
       <created>1568811267491</created>
@@ -657,11 +631,25 @@
       <option name="project" value="LOCAL" />
       <updated>1568903814909</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Dodano kolory tła">
+      <created>1568917056059</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568917056059</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Dodano opcję wyboru typu punktu spożywczego">
+      <created>1568960545573</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568960545573</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88137000" />
+    <option name="totallyTimeSpent" value="91209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="8" width="1440" height="867" extended-state="2" />
@@ -672,7 +660,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24568966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24497126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Console" weight="0.32795697" />
@@ -751,7 +739,9 @@
     <MESSAGE value="Dodawanie/edycja/usuwanie elementów z tabelek" />
     <MESSAGE value="Strona z linkami do poszczególnych formularzy tabel" />
     <MESSAGE value="Dodano linki powrotu na stronę główną" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodano linki powrotu na stronę główną" />
+    <MESSAGE value="Dodano kolory tła" />
+    <MESSAGE value="Dodano opcję wyboru typu punktu spożywczego" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodano opcję wyboru typu punktu spożywczego" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,16 +792,6 @@
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Drogeria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,30 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Kompostowniki.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="99" lean-forward="true" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Spozywka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,30 +927,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/ZwłasnymKubkiem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Akcesoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,16 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/SpozywkaWebController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="76" column="93" selection-start-line="76" selection-start-column="93" selection-end-line="76" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/ZwłasnymKubkiemWebController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1060,31 +990,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/remove.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1096,13 +1005,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
@@ -1123,31 +1025,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/remove.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1190,10 +1071,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/controllers/SpozywkaWebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Spozywka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Kompostowniki.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/ZwłasnymKubkiem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Drogeria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/model/entities/Akcesoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="136">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akcesoriaChemia/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drogeria/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/kompostownik/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spozywka/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zwlasnymkubkiem/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
         </state>
       </provider>
     </entry>

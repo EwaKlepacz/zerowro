@@ -18,7 +18,7 @@
 
 <table>
     <tr>
-        <th>Id</th>
+
         <th>Nazwa</th>
         <th>Dzielnica</th>
         <th>Adres</th>
@@ -26,7 +26,7 @@
     </tr>
     <c:forEach items="${zwlasnymkubkiem}" var="zwlasnymkubkiem">
         <tr>
-            <td>${zwlasnymkubkiem.id}</td>
+
             <td>${zwlasnymkubkiem.nazwa}</td>
             <td>${zwlasnymkubkiem.dzielnica}</td>
             <td>${zwlasnymkubkiem.adress}</td>

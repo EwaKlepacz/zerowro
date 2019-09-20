@@ -18,7 +18,7 @@
 
 <table>
     <tr>
-        <th>Id</th>
+
         <th>Nazwa</th>
         <th>Dzielnica</th>
         <th>Adres</th>
@@ -27,7 +27,7 @@
     </tr>
     <c:forEach items="${drogerie}" var="drogeria">
         <tr>
-            <td>${drogeria.id}</td>
+
             <td>${drogeria.name}</td>
             <td>${drogeria.dzielnica}</td>
             <td>${drogeria.adress}</td>

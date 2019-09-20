@@ -6,7 +6,7 @@
 </head>
 <style>
     body {
-        background-image: url("tlo.jpg");
+        background-color: rgb(77, 255, 77);
     }
 </style>
 <body>

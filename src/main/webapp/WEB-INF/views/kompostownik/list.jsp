@@ -18,7 +18,7 @@
 
 <table>
     <tr>
-        <th>Id</th>
+
         <th>Nazwa</th>
         <th>Dzielnica</th>
         <th>Adres</th>
@@ -27,7 +27,7 @@
     </tr>
     <c:forEach items="${kompostowniki}" var="kompostowniki">
         <tr>
-            <td>${kompostowniki.id}</td>
+
             <td>${kompostowniki.nazwa}</td>
             <td>${kompostowniki.dzielnica}</td>
             <td>${kompostowniki.adress}</td>
