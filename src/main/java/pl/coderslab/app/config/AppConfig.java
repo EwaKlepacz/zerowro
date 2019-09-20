@@ -55,7 +55,10 @@ public class AppConfig  extends WebMvcConfigurerAdapter {
         return resolver;
     }
 
-    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+    @Override
+    public void configureDefaultServletHandling(
+            DefaultServletHandlerConfigurer configurer) {
         configurer.enable();
     }
+
 }

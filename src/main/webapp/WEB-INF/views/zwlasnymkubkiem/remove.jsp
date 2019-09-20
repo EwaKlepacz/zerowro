@@ -8,7 +8,10 @@
 </head>
 <style>
     body {
-        background-color: rgba(185,177,189,0.94);
+        background-image: url("/images/coffe.jpg");
+    }
+    a {
+        color: black;
     }
 </style>
 <body>

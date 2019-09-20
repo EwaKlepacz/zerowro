@@ -7,7 +7,10 @@
 </head>
 <style>
     body {
-        background-color: rgba(236,250,147,0.59);
+        background-image: url("/images/amu.jpg");
+    }
+    a {
+        color: black;
     }
 </style>
 <body>

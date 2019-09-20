@@ -7,7 +7,10 @@
 </head>
 <style>
     body {
-        background-color: rgba(185,177,189,0.94);
+        background-image: url("/images/coffe.jpg");
+    }
+    a {
+        color: black;
     }
 </style>
 <body>
@@ -18,7 +21,7 @@
 
 <table>
     <tr>
-        <th>Id</th>
+
         <th>Nazwa</th>
         <th>Dzielnica</th>
         <th>Adres</th>
@@ -26,7 +29,7 @@
     </tr>
     <c:forEach items="${zwlasnymkubkiem}" var="zwlasnymkubkiem">
         <tr>
-            <td>${zwlasnymkubkiem.id}</td>
+
             <td>${zwlasnymkubkiem.nazwa}</td>
             <td>${zwlasnymkubkiem.dzielnica}</td>
             <td>${zwlasnymkubkiem.adress}</td>

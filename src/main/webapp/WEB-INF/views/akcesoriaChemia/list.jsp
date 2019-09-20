@@ -13,7 +13,7 @@
 </head>
 <style>
     body {
-        background-color: rgb(173,234,204);
+        background-image: url("/images/chemia.jpg");
     }
 </style>
 <body>

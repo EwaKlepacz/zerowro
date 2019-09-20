@@ -6,7 +6,22 @@
 </head>
 <style>
     body {
-        background-color: rgb(77, 255, 77);
+        background-image: url("/images/tlo.jpg");
+    }
+    a {
+        color: black;
+    }
+
+    div { background-color: white;
+        opacity: 0.8;
+
+        width: 250px;
+        padding: 10px;
+        height: 200px;
+        margin: 10px 10px 0px 0px;
+    }
+    p {
+        font-weight: bold;
     }
 </style>
 <body>
@@ -15,8 +30,8 @@
 <br>
 
 <br>
-<p text>Podziel się swoją wiedzą o miejscach:</p>
-<ol>
+<div> <p> Podziel się swoją wiedzą o miejscach: </p>
+<ul>
     <li>
          <c:url value="/akcesoriaChemia" var="AkcesoriaChemiaURL"/>
             <a href="${AkcesoriaChemiaURL}"> Akcesoria i chemia  </a></li>
@@ -37,7 +52,7 @@
     <li> <c:url value="/zwlasnymkubkiem" var="zwlasnymkubkiemURL"/>
         <a href="${zwlasnymkubkiemURL}"> Miejsca wspierające akcję "z własnym kubkiem"</a> </li>
 
-</ol>
-
+</ul>
+</div>
 </body>
 </html>

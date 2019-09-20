@@ -7,8 +7,13 @@
 </head>
 <style>
     body {
-        background-color: rgba(236,250,147,0.59);
+        background-image : url("/images/amu.jpg");
+
     }
+    a {
+        color: black;
+    }
+
 </style>
 <body>
 <h1>Lista miejsc spożywczych przyjaznych Zero Waste: </h1>
@@ -18,7 +23,7 @@
 
 <table>
     <tr>
-        <th>Id</th>
+
         <th>Nazwa</th>
         <th>Dzielnica</th>
         <th>Adres</th>
@@ -27,7 +32,7 @@
     </tr>
     <c:forEach items="${spozywka}" var="spozywka">
         <tr>
-            <td>${spozywka.id}</td>
+
             <td>${spozywka.name}</td>
             <td>${spozywka.dzielnica}</td>
             <td>${spozywka.adress}</td>

@@ -7,7 +7,10 @@
 </head>
 <style>
     body {
-        background-color: rgba(247,211,246,0.59);
+        background-image: url("/images/kosmetyki.jpg");
+           }
+    a {
+        color: black;
     }
 </style>
 <body>
@@ -18,7 +21,7 @@
 
 <table>
     <tr>
-        <th>Id</th>
+
         <th>Nazwa</th>
         <th>Dzielnica</th>
         <th>Adres</th>
@@ -27,7 +30,7 @@
     </tr>
     <c:forEach items="${drogerie}" var="drogeria">
         <tr>
-            <td>${drogeria.id}</td>
+
             <td>${drogeria.name}</td>
             <td>${drogeria.dzielnica}</td>
             <td>${drogeria.adress}</td>

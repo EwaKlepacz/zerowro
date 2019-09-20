@@ -7,7 +7,10 @@
 </head>
 <style>
     body {
-        background-color: rgba(247,211,246,0.59);
+        background-image: url("/images/kosmetyki.jpg");
+    }
+    a {
+        color: black;
     }
 </style>
 <body>

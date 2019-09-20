@@ -7,7 +7,10 @@
 </head>
 <style>
     body {
-        background-color: rgba(147,243,178,0.59);
+        background-image: url("/images/kompost.jpg");
+    }
+    a {
+        color: black;
     }
 </style>
 <body>

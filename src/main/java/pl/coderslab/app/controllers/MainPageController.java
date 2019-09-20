@@ -14,39 +14,9 @@ import java.util.List;
 @Controller
 @RequestMapping
 public class MainPageController {
-    @GetMapping("/index")
+    @GetMapping({"/index","/"})
     public String prepareMainPage() {
 
-// @GetMapping
-//        public String prepareAllSpozywkaPage(Model model) {
-//            model.addAttribute("spozywka", spozywkaDao.findAll());
-//            return "spozywka/list";
-//        }
-//
-//        @GetMapping({"/add", "edit"})
-//        public String prepareManageSpożywkaPage(@RequestParam(required = false) Long id, Model model) {
-//           Spozywka spozywka;
-//            if (id == null) {
-//                spozywka = new Spozywka();
-//            } else {
-//                spozywka = spozywkaDao.findById(id);
-//            }
-//            model.addAttribute("spozywka", spozywka);
-//            return "spozywka/manage";
-//        }
-//
-//        @PostMapping({"/add", "edit"})
-//        public String processManageKompostownikiPage(@Valid Spozywka spozywka, BindingResult result) {
-//            if (result.hasErrors()) {
-//                return "spozywka/manage";
-//            }
-//            if (spozywka.getId() == null) {
-//                spozywkaDao.create(spozywka);
-//            } else {
-//                spozywkaDao.update(spozywka);
-//            }
-//            return "redirect:/spozywka";
-//        }
 
 
 
