@@ -5,6 +5,11 @@
 <head>
     <title>Lista miejsc wspierających akcję "z własnym kubkiem" </title>
 </head>
+<style>
+    body {
+        background-color: rgba(185,177,189,0.94);
+    }
+</style>
 <body>
 <h1>Lista miejsc wspierających akcję "z własnym kubkiem": </h1>
 <c:url value="/zwlasnymkubkiem/add" var="addzwlasnymkubkiemURL"/>

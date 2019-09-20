@@ -27,7 +27,7 @@ public class Spozywka {
     @Column(name = "adres")
     private String adress;
 
-    @Size(min = 4, max = 25, message = "Długośc tekstu pomiędzy 4, a 25 znaków")
+    @Size
     @Column(name = "typ")
     private String typ;
 
